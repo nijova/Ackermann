@@ -1,0 +1,6 @@
+/home/q/GITLAB/Ackermann/bin/Debug/Ackermann.exe
+/home/q/GITLAB/Ackermann/bin/Debug/Ackermann.pdb
+/home/q/GITLAB/Ackermann/obj/x86/Debug/Ackermann.csprojAssemblyReference.cache
+/home/q/GITLAB/Ackermann/obj/x86/Debug/Ackermann.csproj.CoreCompileInputs.cache
+/home/q/GITLAB/Ackermann/obj/x86/Debug/Ackermann.exe
+/home/q/GITLAB/Ackermann/obj/x86/Debug/Ackermann.pdb

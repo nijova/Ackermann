@@ -6,6 +6,7 @@ namespace Ackermann
     {
         public static void Main(string[] args)
         {
+            Ackermann.Wrapper(0, 0);
         }
     }
 }
