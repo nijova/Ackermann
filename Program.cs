@@ -1,12 +1,10 @@
-﻿using System;
-
-namespace Ackermann
+﻿namespace Ackermann
 {
     class MainClass
     {
         public static void Main(string[] args)
         {
-            var max = 4;
+            var max = 5;
             for (var i = 0; i <= max; i++)
                 for (var j = 0; j <= max; j++)
             {
