@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace Ackermann
 {
@@ -26,7 +27,14 @@ namespace Ackermann
         {
             if (CheckArgs(m, n))
             {
-                Console.WriteLine(A(m, n));
+                Console.WriteLine(new string('*', 20));
+                Stopwatch stopwatch = new Stopwatch();
+                Console.WriteLine(string.Format("Computing A({0}, {1}):", m, n));
+                stopwatch.Start();
+                var result = A(m, n);
+                stopwatch.Stop();
+                Console.WriteLine(string.Format("Time to compute: {0}", stopwatch.Elapsed));
+                Console.WriteLine(string.Format("Result: {0}", result));
             }
             else
             {

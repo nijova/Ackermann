@@ -6,7 +6,12 @@ namespace Ackermann
     {
         public static void Main(string[] args)
         {
-            Ackermann.Wrapper(0, 0);
+            var max = 4;
+            for (var i = 0; i <= max; i++)
+                for (var j = 0; j <= max; j++)
+            {
+                Ackermann.Wrapper(i, j);
+            }
         }
     }
 }
